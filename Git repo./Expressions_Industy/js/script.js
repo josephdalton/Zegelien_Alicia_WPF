@@ -7,4 +7,7 @@ alert("Number of Batteries to Change per service: "+ micBatteriesToChange);
 
 var services = prompt("Number of Services per week");
 var batteriesPerWeek = services * micBatteriesToChange;
-console.log(batteriesPerWeek);
+//console.log(batteriesPerWeek);
+alert("Number of Batteries used per week: " + batteriesPerWeek);
+
+var weeks = ("Number of week in a year");
