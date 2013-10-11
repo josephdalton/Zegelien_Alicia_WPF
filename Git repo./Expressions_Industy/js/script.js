@@ -3,3 +3,4 @@ var mic = prompt("Number of mics");
 var AA = prompt ("Number of batteries in mic");
 var micBatteriesToChange = mic * AA;
 console.log(micBatteriesToChange);
+alert("Number of Batteries to Change per service: "+ micBatteriesToChange);
