@@ -11,3 +11,5 @@ var batteriesPerWeek = services * micBatteriesToChange;
 alert("Number of Batteries used per week: " + batteriesPerWeek);
 
 var weeks = ("Number of week in a year");
+var batteriesPerYear = weeks * batteriesPerWeek;
+console.log(batteriesPerYear);
