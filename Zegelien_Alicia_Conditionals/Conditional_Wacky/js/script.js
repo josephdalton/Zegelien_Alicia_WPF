@@ -4,7 +4,7 @@ var secretCodeWord = tootles
 var enteredSecretCode = prompt("What is the secret code word?");
 if(enteredSecretCode === secretCodeWord){        //if statement
 	console.log("Congratulations you know the secret code word!!!");
-}else{     
+}else{     //else statement
 	console.log("Please try again!")
 }
 
