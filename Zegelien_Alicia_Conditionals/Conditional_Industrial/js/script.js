@@ -3,3 +3,6 @@
 var oneYearRatio = prompt("How many one year olds in your classroom?");
 
 //if you have 6 or less kids you can be by yourself, if you have less than or equal to 12 you can have two people. otherwise, send to another room what you are over.
+if(oneYearRatio <= 6){
+	console.log("You can be in a room by yourself.");
+}
