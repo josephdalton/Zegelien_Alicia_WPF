@@ -1,15 +1,25 @@
-//Conditdional logic - else if
+console.log("========== Loops =========")
 
-var kidHeight = 50;
-var minHeight = 48;
-var wParentHeight =45;
+var b = 10; //setups the index
 
-//if the child is old enough, print to the console "you can ride!"
-//if the kid is over 48 inches is height
-if(kidHeight > minHeight){
-	console.log("You can ride the coaster!");
-}else if(kidHeight > wParentHeight){
-	console.log("You can ride, but only with a parent present!");
-}else{
-	console.log("Sorry kid grow some first!");
+while(b > 0){ //checks the condition
+	console.log(b + " kegs on the wall");
+	b--; //increments or decrements the index
+}
+
+console.log("========= Do While Loops =========");
+var c = 10;
+do{
+	console.log(c + " kegs on the wall"); // this first
+	c--;
+}
+while(c > 0); // this second
+
+
+
+console.log("============= For Loops ==========");
+
+
+for(var I = 10; I > 0; I--){                 // shorthand version. this is while and do while
+	console.log(I + " kegs on the wall");
 }
