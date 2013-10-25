@@ -5,3 +5,4 @@ var music = function(mics, instruments){
 }
 
 var outputs = music(7,4);
+console.log("You will need " + outputs + " outputs to run the mics and insturments" );
