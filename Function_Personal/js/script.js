@@ -5,3 +5,4 @@ function monthlyWage(pay, hours, weeks){
 	var total = pay * hours * weeks;
 	return total;
 }
+console.log ("Your gross monthly income is $" + gross);
