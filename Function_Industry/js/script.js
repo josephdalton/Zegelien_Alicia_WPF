@@ -4,3 +4,4 @@ var music = function(mics, instruments){
 	return totalOfOutputs;
 }
 
+var outputs = music(7,4);
