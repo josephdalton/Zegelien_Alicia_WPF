@@ -2,5 +2,6 @@
 
 var gross = monthlyWage(8,40,4);
 function monthlyWage(pay, hours, weeks){
-	var total =  pay * hours * weeks;
-	
+	var total = pay * hours * weeks;
+	return total;
+}
